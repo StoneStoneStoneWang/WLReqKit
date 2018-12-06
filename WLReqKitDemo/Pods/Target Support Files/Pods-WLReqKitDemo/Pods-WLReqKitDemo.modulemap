@@ -1,4 +1,4 @@
-framework module Pods_WLReqKitDemo {
+module Pods_WLReqKitDemo {
   umbrella header "Pods-WLReqKitDemo-umbrella.h"
 
   export *

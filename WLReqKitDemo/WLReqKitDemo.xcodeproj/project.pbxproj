@@ -21,7 +21,7 @@
 		6C0A67B521B8C53A009969D3 /* WLBaseReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67AF21B8C53A009969D3 /* WLBaseReq.swift */; };
 		6C0A67B821B8CA89009969D3 /* Observable+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67B721B8CA89009969D3 /* Observable+Map.swift */; };
 		6C0A67BA21B8D0A8009969D3 /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67B921B8D0A8009969D3 /* LoginClient.swift */; };
-		E6E625DFEAE40B56D4234C1A /* Pods_WLReqKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409A0A77917DFDBD4675CD6C /* Pods_WLReqKitDemo.framework */; };
+		C17CEA91A910575BE7FD90CB /* libPods-WLReqKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33B69ED69F0E8B9BCEB4F4 /* libPods-WLReqKitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		034172D652B470C237DFD903 /* Pods-WLReqKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLReqKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLReqKitDemo/Pods-WLReqKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		409A0A77917DFDBD4675CD6C /* Pods_WLReqKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLReqKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0A677721B8C3FF009969D3 /* WLReqKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLReqKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0A677A21B8C3FF009969D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C0A677C21B8C3FF009969D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		6C0A67B721B8CA89009969D3 /* Observable+Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Map.swift"; sourceTree = "<group>"; };
 		6C0A67B921B8D0A8009969D3 /* LoginClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClient.swift; sourceTree = "<group>"; };
 		AEEDF6A2F2942419F9B644EE /* Pods-WLReqKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLReqKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLReqKitDemo/Pods-WLReqKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CE33B69ED69F0E8B9BCEB4F4 /* libPods-WLReqKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLReqKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6E625DFEAE40B56D4234C1A /* Pods_WLReqKitDemo.framework in Frameworks */,
+				C17CEA91A910575BE7FD90CB /* libPods-WLReqKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +174,7 @@
 		D311F10419D31D9A38062068 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				409A0A77917DFDBD4675CD6C /* Pods_WLReqKitDemo.framework */,
+				CE33B69ED69F0E8B9BCEB4F4 /* libPods-WLReqKitDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,7 +190,6 @@
 				6C0A677321B8C3FF009969D3 /* Sources */,
 				6C0A677421B8C3FF009969D3 /* Frameworks */,
 				6C0A677521B8C3FF009969D3 /* Resources */,
-				1FA86D7B2AF5C330082E764E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -309,36 +308,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1FA86D7B2AF5C330082E764E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WLReqKitDemo/Pods-WLReqKitDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLReqKitDemo/Pods-WLReqKitDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		89A1CCD9544DC5834CA630F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
