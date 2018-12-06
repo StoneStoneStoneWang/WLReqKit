@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-public class WLURLSessionClient {
+open class WLURLSessionClient {
     
     static let `default`: WLURLSessionClient = WLURLSessionClient()
     

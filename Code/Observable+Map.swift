@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 import ObjectMapper
 
-public enum RxObjectMapperError: Error {
+public enum WLRxObjectMapperError: Error {
     case parsingError
 }
 
@@ -24,7 +24,7 @@ public extension Observable where Element:Any {
         
         return self.map { (element) -> T in
             guard let parsedElement = mapper.map(JSONObject: element) else {
-                throw RxObjectMapperError.parsingError
+                throw WLRxObjectMapperError.parsingError
             }
             
             return parsedElement
@@ -37,7 +37,7 @@ public extension Observable where Element:Any {
         
         return self.map { (element) -> [T] in
             guard let parsedArray = mapper.mapArray(JSONObject: element) else {
-                throw RxObjectMapperError.parsingError
+                throw WLRxObjectMapperError.parsingError
             }
             
             return parsedArray

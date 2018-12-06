@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "WLReqKit"
-s.version      = "0.0.3"
+s.version      = "0.0.4"
 s.summary      = "A Lib For req."
 s.description  = <<-DESC
 面向协议的Alamofire封装
@@ -21,9 +21,9 @@ s.source = { :git => "https://github.com/StoneStoneStoneWang/WLReqKit.git", :tag
 
 s.source_files = "Code/**/*.{swift}"
 
-s.static_framework = true
-
 s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+
+s.static_framework = true
 
 s.dependency 'Alamofire'
 

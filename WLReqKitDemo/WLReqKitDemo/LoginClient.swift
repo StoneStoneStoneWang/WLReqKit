@@ -51,7 +51,7 @@ open class BaseBean: Mappable {
     }
     
     public func mapping(map: Map) {
-     
+        
         data <- map["data"]
     }
     
