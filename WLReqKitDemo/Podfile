@@ -4,7 +4,7 @@ use_modular_headers!
 
 target 'WLReqKitDemo' do
 pod 'Alamofire'
-
+pod 'RxAtomic' ,:modular_headers => true
 pod 'RxSwift'
 pod 'RxCocoa'
 pod 'ObjectMapper'
