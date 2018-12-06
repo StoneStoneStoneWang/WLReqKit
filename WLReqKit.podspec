@@ -21,6 +21,8 @@ s.source = { :git => "https://github.com/StoneStoneStoneWang/WLReqKit.git", :tag
 
 s.source_files = "Code/**/*.{swift}"
 
+s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+
 s.dependency 'Alamofire'
 
 s.dependency 'RxSwift'
