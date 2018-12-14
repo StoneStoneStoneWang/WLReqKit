@@ -12,7 +12,7 @@ import RxSwift
 
 open class WLURLSessionClient {
     
-    static let `default`: WLURLSessionClient = WLURLSessionClient()
+    public static let `default`: WLURLSessionClient = WLURLSessionClient()
     
     private init() { }
     
@@ -55,7 +55,6 @@ extension WLURLSessionClient: WLClient {
         })
     }
     
-    
     public func onSendReq<T>(_ req: T, success: @escaping (T.Resp) -> (), failure: @escaping (Error) -> ()) where T : WLBaseReq  {
         
         request(URL(string: host + req.reqName)!, method: req.method, parameters: req.params, encoding: URLEncoding.default, headers: req.headers).responseJSON { (response) in
@@ -72,7 +71,7 @@ extension WLURLSessionClient: WLClient {
                     
                     failure(WLBaseError.MapperError("WLBaseReq 不是json"))
                 }
-
+                
             } else {
                 
                 failure(WLBaseError.HTTPFailed(response.result.error!))
