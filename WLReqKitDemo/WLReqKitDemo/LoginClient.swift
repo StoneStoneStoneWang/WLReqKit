@@ -19,6 +19,7 @@ protocol LoginRequest: WLBaseReq {
     
     
 }
+
 extension LoginRequest {
     
     mutating func onLogin(phone: String,secret: String,success: @escaping (Resp) -> (),failure: @escaping () -> ()) {
@@ -44,6 +45,7 @@ extension LoginClient {
         req.onLogin(phone: phone, secret: secret, success: success, failure: failure)
     }
 }
+
 open class BaseBean: Mappable {
     public required init?(map: Map) {
         

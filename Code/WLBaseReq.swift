@@ -8,6 +8,9 @@
 
 import UIKit
 import Alamofire
+import RxCocoa
+import RxSwift
+
 public protocol WLBaseReq {
     /*
      reqName 请求接口名 如 app/user/v1/login

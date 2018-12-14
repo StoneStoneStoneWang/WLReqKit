@@ -7,10 +7,15 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 public protocol WLClient {
     
     var host: String { get }
     
     func onSendReq<T: WLBaseReq>(_ req: T,success: @escaping (T.Resp) -> (),failure: @escaping (Error) -> ())
+    
+    func onSendReq<T : WLBaseReq>(_ req: T) -> Observable<Any?>
 }
+
