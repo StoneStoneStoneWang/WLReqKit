@@ -15,3 +15,20 @@ public enum WLBaseError: Error {
     
     case ServerResponseError(_ msg: String)
 }
+extension WLBaseError {
+    
+    var description: (String,Error?) {
+        
+        switch self {
+        case let .HTTPFailed(e):
+            
+            return (e.localizedDescription,e)
+        case let .MapperError(msg):
+            
+            return (msg ,nil)
+        case let .ServerResponseError(msg):
+            
+            return (msg ,nil)
+        }
+    }
+}

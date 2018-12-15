@@ -26,9 +26,9 @@ open class WLURLSessionClient {
 
 extension WLURLSessionClient: WLClient {
     
-    public func onSendReq<T>(_ req: T) -> Observable<Any?> where T : WLBaseReq {
+    public func onSendReq<T>(_ req: T) -> Observable<[String:Any]> where T : WLBaseReq {
         
-        return Observable<Any?>.create({ (observer) -> Disposable in
+        return Observable<[String:Any]>.create({ (observer) -> Disposable in
             
             request(URL(string: WLURLSessionClient.default.host + req.reqName)!, method: req.method, parameters: req.params, encoding: URLEncoding.default, headers: req.headers).responseJSON { (response) in
                 
@@ -38,7 +38,7 @@ extension WLURLSessionClient: WLClient {
                     
                 case let .success(value):
                     
-                    observer.onNext(value)
+                    observer.onNext(value as! [String : Any])
                     
                     observer.onCompleted()
                     

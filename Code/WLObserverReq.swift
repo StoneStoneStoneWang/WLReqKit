@@ -26,4 +26,5 @@ public protocol WLObserverReq {
     var headers: Dictionary<String,String> { get }
     
     var method: HTTPMethod { get }
+
 }

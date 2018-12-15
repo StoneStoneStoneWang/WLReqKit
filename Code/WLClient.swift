@@ -16,6 +16,6 @@ public protocol WLClient {
     
     func onSendReq<T: WLBaseReq>(_ req: T,success: @escaping (T.Resp) -> (),failure: @escaping (Error) -> ())
     
-    func onSendReq<T : WLBaseReq>(_ req: T) -> Observable<Any?>
+    func onSendReq<T : WLBaseReq>(_ req: T) -> Observable<[String:Any]>
 }
 
