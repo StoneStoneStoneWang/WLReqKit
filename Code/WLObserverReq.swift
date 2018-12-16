@@ -19,7 +19,7 @@ public protocol WLObserverReq {
     /*
      params 请求 参数
      */
-    var params: Dictionary<String,Any> { set get }
+    var params: Dictionary<String,Any> { get }
     /*
      params 请求头
      */

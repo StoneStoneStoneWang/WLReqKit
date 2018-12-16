@@ -17,7 +17,7 @@ public enum WLBaseError: Error {
 }
 extension WLBaseError {
     
-    var description: (String,Error?) {
+    public var description: (String,Error?) {
         
         switch self {
         case let .HTTPFailed(e):
