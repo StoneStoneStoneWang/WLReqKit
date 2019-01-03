@@ -9,23 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        WLURLSessionClient.default.setHost("https://www.jiutouzhu.com/api")
-        
-        LoginClient.default.onLogin(phone: "18612598269", secret: "123456", success: { (user) in
-            
-            print(user.id)
-            
-        }) {
-            
-            
-        }
     }
-
-
 }
 

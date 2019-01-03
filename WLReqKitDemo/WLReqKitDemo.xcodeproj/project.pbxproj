@@ -15,15 +15,12 @@
 		6C0A679021B8C400009969D3 /* WLReqKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A678F21B8C400009969D3 /* WLReqKitDemoTests.swift */; };
 		6C0A679B21B8C400009969D3 /* WLReqKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A679A21B8C400009969D3 /* WLReqKitDemoUITests.swift */; };
 		6C0A67A921B8C425009969D3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C0A67A821B8C425009969D3 /* Podfile */; };
-		6C0A67B121B8C53A009969D3 /* WLURLSessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67AB21B8C53A009969D3 /* WLURLSessionClient.swift */; };
 		6C0A67B221B8C53A009969D3 /* CurrentNetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67AC21B8C53A009969D3 /* CurrentNetClient.swift */; };
-		6C0A67B321B8C53A009969D3 /* WLClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67AD21B8C53A009969D3 /* WLClient.swift */; };
-		6C0A67B521B8C53A009969D3 /* WLBaseReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67AF21B8C53A009969D3 /* WLBaseReq.swift */; };
 		6C0A67B821B8CA89009969D3 /* Observable+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67B721B8CA89009969D3 /* Observable+Map.swift */; };
-		6C0A67BA21B8D0A8009969D3 /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67B921B8D0A8009969D3 /* LoginClient.swift */; };
 		6C4C750721C33CD90026EE6F /* WLBaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C750621C33CD90026EE6F /* WLBaseError.swift */; };
 		6C4C750921C33FD70026EE6F /* WLObserverReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C750821C33FD70026EE6F /* WLObserverReq.swift */; };
-		6C4C750B21C3636B0026EE6F /* WLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C750A21C3636B0026EE6F /* WLResult.swift */; };
+		6CF964AF21DDACA800256A64 /* WLBaseReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF964AE21DDACA800256A64 /* WLBaseReq.swift */; };
+		6CF964B121DDAD1700256A64 /* WLBaseReqFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF964B021DDAD1700256A64 /* WLBaseReqFunc.swift */; };
 		C17CEA91A910575BE7FD90CB /* libPods-WLReqKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33B69ED69F0E8B9BCEB4F4 /* libPods-WLReqKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -60,15 +57,12 @@
 		6C0A679A21B8C400009969D3 /* WLReqKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLReqKitDemoUITests.swift; sourceTree = "<group>"; };
 		6C0A679C21B8C400009969D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C0A67A821B8C425009969D3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6C0A67AB21B8C53A009969D3 /* WLURLSessionClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLURLSessionClient.swift; sourceTree = "<group>"; };
 		6C0A67AC21B8C53A009969D3 /* CurrentNetClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentNetClient.swift; sourceTree = "<group>"; };
-		6C0A67AD21B8C53A009969D3 /* WLClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLClient.swift; sourceTree = "<group>"; };
-		6C0A67AF21B8C53A009969D3 /* WLBaseReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLBaseReq.swift; sourceTree = "<group>"; };
 		6C0A67B721B8CA89009969D3 /* Observable+Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Map.swift"; sourceTree = "<group>"; };
-		6C0A67B921B8D0A8009969D3 /* LoginClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClient.swift; sourceTree = "<group>"; };
 		6C4C750621C33CD90026EE6F /* WLBaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLBaseError.swift; sourceTree = "<group>"; };
 		6C4C750821C33FD70026EE6F /* WLObserverReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLObserverReq.swift; sourceTree = "<group>"; };
-		6C4C750A21C3636B0026EE6F /* WLResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLResult.swift; sourceTree = "<group>"; };
+		6CF964AE21DDACA800256A64 /* WLBaseReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLBaseReq.swift; sourceTree = "<group>"; };
+		6CF964B021DDAD1700256A64 /* WLBaseReqFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLBaseReqFunc.swift; sourceTree = "<group>"; };
 		AEEDF6A2F2942419F9B644EE /* Pods-WLReqKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLReqKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLReqKitDemo/Pods-WLReqKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CE33B69ED69F0E8B9BCEB4F4 /* libPods-WLReqKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLReqKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,7 +121,6 @@
 			children = (
 				6C0A67AA21B8C4D4009969D3 /* Code */,
 				6C0A677A21B8C3FF009969D3 /* AppDelegate.swift */,
-				6C0A67B921B8D0A8009969D3 /* LoginClient.swift */,
 				6C0A677C21B8C3FF009969D3 /* ViewController.swift */,
 				6C0A677E21B8C3FF009969D3 /* Main.storyboard */,
 				6C0A678121B8C400009969D3 /* Assets.xcassets */,
@@ -158,14 +151,12 @@
 		6C0A67AA21B8C4D4009969D3 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				6C0A67AF21B8C53A009969D3 /* WLBaseReq.swift */,
 				6C4C750821C33FD70026EE6F /* WLObserverReq.swift */,
 				6C4C750621C33CD90026EE6F /* WLBaseError.swift */,
-				6C4C750A21C3636B0026EE6F /* WLResult.swift */,
-				6C0A67AD21B8C53A009969D3 /* WLClient.swift */,
 				6C0A67AC21B8C53A009969D3 /* CurrentNetClient.swift */,
-				6C0A67AB21B8C53A009969D3 /* WLURLSessionClient.swift */,
 				6C0A67B721B8CA89009969D3 /* Observable+Map.swift */,
+				6CF964AE21DDACA800256A64 /* WLBaseReq.swift */,
+				6CF964B021DDAD1700256A64 /* WLBaseReqFunc.swift */,
 			);
 			name = Code;
 			path = ../../Code;
@@ -347,16 +338,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C0A677D21B8C3FF009969D3 /* ViewController.swift in Sources */,
-				6C0A67B121B8C53A009969D3 /* WLURLSessionClient.swift in Sources */,
-				6C4C750B21C3636B0026EE6F /* WLResult.swift in Sources */,
-				6C0A67B521B8C53A009969D3 /* WLBaseReq.swift in Sources */,
-				6C0A67BA21B8D0A8009969D3 /* LoginClient.swift in Sources */,
 				6C4C750721C33CD90026EE6F /* WLBaseError.swift in Sources */,
 				6C0A67B221B8C53A009969D3 /* CurrentNetClient.swift in Sources */,
 				6C0A67B821B8CA89009969D3 /* Observable+Map.swift in Sources */,
 				6C4C750921C33FD70026EE6F /* WLObserverReq.swift in Sources */,
-				6C0A67B321B8C53A009969D3 /* WLClient.swift in Sources */,
+				6CF964B121DDAD1700256A64 /* WLBaseReqFunc.swift in Sources */,
 				6C0A677B21B8C3FF009969D3 /* AppDelegate.swift in Sources */,
+				6CF964AF21DDACA800256A64 /* WLBaseReq.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

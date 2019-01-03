@@ -1,12 +1,12 @@
 //
 //  WLBaseReq.swift
-//  ReqKit
+//  WLReqKitDemo
 //
-//  Created by three stone 王 on 2017/12/21.
-//  Copyright © 2017年 three stone 王. All rights reserved.
+//  Created by three stone 王 on 2019/1/3.
+//  Copyright © 2019年 three stone 王. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import Alamofire
 import RxCocoa
 import RxSwift
