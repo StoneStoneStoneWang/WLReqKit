@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "WLReqKit"
-s.version      = "0.0.9"
+s.version      = "0.1.0"
 s.summary      = "A Lib For req."
 s.description  = <<-DESC
 面向协议的Alamofire、RxSwift封装
