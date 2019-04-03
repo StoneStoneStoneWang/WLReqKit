@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "WLReqKit"
-s.version      = "0.1.1"
+s.version      = "0.1.2"
 s.summary      = "A Lib For req."
 s.description  = <<-DESC
 面向协议的Alamofire、RxSwift封装
@@ -13,7 +13,7 @@ s.author             = { "StoneStoneStoneWang" => "yuanxingfu1314@163.com" }
 s.platform     = :ios, "9.0"
 s.ios.deployment_target = "9.0"
 
-s.swift_version = '4.2'
+s.swift_version = '5.0'
 
 s.frameworks = 'UIKit', 'Foundation'
 
