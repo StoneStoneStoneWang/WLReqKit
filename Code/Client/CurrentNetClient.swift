@@ -11,14 +11,13 @@ import Alamofire
 
 public struct CurrentNetClient {
     
-    static let `default`: CurrentNetClient = CurrentNetClient()
+    public static let `default`: CurrentNetClient = CurrentNetClient()
     
-    private init() {
-        
-    }
+    private init() { }
+    
     fileprivate var manager: NetworkReachabilityManager =  NetworkReachabilityManager()!
- 
-    enum NetWorkStatus {
+    
+    public enum NetWorkStatus {
         case notReachable
         
         case wwan
@@ -30,7 +29,7 @@ public struct CurrentNetClient {
 }
 extension CurrentNetClient {
     
-    func startListen(handler: @escaping (NetWorkStatus) -> ()) {
+    public func startListen(handler: @escaping (NetWorkStatus) -> ()) {
         
         manager.startListening()
         
@@ -49,7 +48,8 @@ extension CurrentNetClient {
             handler(.unknown)
         }
     }
-    func stopListen() {
+    
+    public func stopListen() {
         
         manager.stopListening()
     }

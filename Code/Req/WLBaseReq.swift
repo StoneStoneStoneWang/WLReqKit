@@ -8,8 +8,6 @@
 
 import Foundation
 import Alamofire
-import RxCocoa
-import RxSwift
 
 public protocol WLBaseReq {
     /*

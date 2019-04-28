@@ -1,0 +1,6 @@
+framework module Pods_WLReqKitPodspecEdit {
+  umbrella header "Pods-WLReqKitPodspecEdit-umbrella.h"
+
+  export *
+  module * { export * }
+}

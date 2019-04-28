@@ -8,7 +8,6 @@
 
 import Foundation
 import RxSwift
-import RxCocoa
 import ObjectMapper
 
 public enum WLRxObjectMapperError: Error {
@@ -16,7 +15,7 @@ public enum WLRxObjectMapperError: Error {
 }
 
 //扩展Observable：增加模型映射方法
-public extension Observable where Element:Any {
+extension Observable where Element:Any {
     
     //将JSON数据转成对象
     public func mapObject< T>(type:T.Type) -> Observable<T> where T:Mappable {

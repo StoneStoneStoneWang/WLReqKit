@@ -15,12 +15,12 @@
 		6C0A679021B8C400009969D3 /* WLReqKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A678F21B8C400009969D3 /* WLReqKitDemoTests.swift */; };
 		6C0A679B21B8C400009969D3 /* WLReqKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A679A21B8C400009969D3 /* WLReqKitDemoUITests.swift */; };
 		6C0A67A921B8C425009969D3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C0A67A821B8C425009969D3 /* Podfile */; };
-		6C0A67B221B8C53A009969D3 /* CurrentNetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67AC21B8C53A009969D3 /* CurrentNetClient.swift */; };
-		6C0A67B821B8CA89009969D3 /* Observable+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A67B721B8CA89009969D3 /* Observable+Map.swift */; };
-		6C4C750721C33CD90026EE6F /* WLBaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C750621C33CD90026EE6F /* WLBaseError.swift */; };
-		6C4C750921C33FD70026EE6F /* WLObserverReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C750821C33FD70026EE6F /* WLObserverReq.swift */; };
-		6CF964AF21DDACA800256A64 /* WLBaseReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF964AE21DDACA800256A64 /* WLBaseReq.swift */; };
-		6CF964B121DDAD1700256A64 /* WLBaseReqFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF964B021DDAD1700256A64 /* WLBaseReqFunc.swift */; };
+		6CAAF275226A48B200C88E59 /* WLObserverReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAAF26A226A48B200C88E59 /* WLObserverReq.swift */; };
+		6CAAF276226A48B200C88E59 /* WLBaseReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAAF26C226A48B200C88E59 /* WLBaseReq.swift */; };
+		6CAAF277226A48B200C88E59 /* Observable+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAAF26E226A48B200C88E59 /* Observable+Map.swift */; };
+		6CAAF278226A48B200C88E59 /* WLBaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAAF270226A48B200C88E59 /* WLBaseError.swift */; };
+		6CAAF279226A48B200C88E59 /* CurrentNetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAAF272226A48B200C88E59 /* CurrentNetClient.swift */; };
+		6CAAF27A226A48B200C88E59 /* WLBaseReqFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAAF274226A48B200C88E59 /* WLBaseReqFunc.swift */; };
 		C17CEA91A910575BE7FD90CB /* libPods-WLReqKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33B69ED69F0E8B9BCEB4F4 /* libPods-WLReqKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -57,12 +57,12 @@
 		6C0A679A21B8C400009969D3 /* WLReqKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLReqKitDemoUITests.swift; sourceTree = "<group>"; };
 		6C0A679C21B8C400009969D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C0A67A821B8C425009969D3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6C0A67AC21B8C53A009969D3 /* CurrentNetClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentNetClient.swift; sourceTree = "<group>"; };
-		6C0A67B721B8CA89009969D3 /* Observable+Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Map.swift"; sourceTree = "<group>"; };
-		6C4C750621C33CD90026EE6F /* WLBaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLBaseError.swift; sourceTree = "<group>"; };
-		6C4C750821C33FD70026EE6F /* WLObserverReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLObserverReq.swift; sourceTree = "<group>"; };
-		6CF964AE21DDACA800256A64 /* WLBaseReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLBaseReq.swift; sourceTree = "<group>"; };
-		6CF964B021DDAD1700256A64 /* WLBaseReqFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLBaseReqFunc.swift; sourceTree = "<group>"; };
+		6CAAF26A226A48B200C88E59 /* WLObserverReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLObserverReq.swift; sourceTree = "<group>"; };
+		6CAAF26C226A48B200C88E59 /* WLBaseReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLBaseReq.swift; sourceTree = "<group>"; };
+		6CAAF26E226A48B200C88E59 /* Observable+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Map.swift"; sourceTree = "<group>"; };
+		6CAAF270226A48B200C88E59 /* WLBaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLBaseError.swift; sourceTree = "<group>"; };
+		6CAAF272226A48B200C88E59 /* CurrentNetClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentNetClient.swift; sourceTree = "<group>"; };
+		6CAAF274226A48B200C88E59 /* WLBaseReqFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLBaseReqFunc.swift; sourceTree = "<group>"; };
 		AEEDF6A2F2942419F9B644EE /* Pods-WLReqKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLReqKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLReqKitDemo/Pods-WLReqKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CE33B69ED69F0E8B9BCEB4F4 /* libPods-WLReqKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLReqKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,7 +119,7 @@
 		6C0A677921B8C3FF009969D3 /* WLReqKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6C0A67AA21B8C4D4009969D3 /* Code */,
+				6CAAF268226A48B200C88E59 /* Code */,
 				6C0A677A21B8C3FF009969D3 /* AppDelegate.swift */,
 				6C0A677C21B8C3FF009969D3 /* ViewController.swift */,
 				6C0A677E21B8C3FF009969D3 /* Main.storyboard */,
@@ -148,18 +148,66 @@
 			path = WLReqKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		6C0A67AA21B8C4D4009969D3 /* Code */ = {
+		6CAAF268226A48B200C88E59 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				6C4C750821C33FD70026EE6F /* WLObserverReq.swift */,
-				6C4C750621C33CD90026EE6F /* WLBaseError.swift */,
-				6C0A67AC21B8C53A009969D3 /* CurrentNetClient.swift */,
-				6C0A67B721B8CA89009969D3 /* Observable+Map.swift */,
-				6CF964AE21DDACA800256A64 /* WLBaseReq.swift */,
-				6CF964B021DDAD1700256A64 /* WLBaseReqFunc.swift */,
+				6CAAF269226A48B200C88E59 /* RXReq */,
+				6CAAF26B226A48B200C88E59 /* Req */,
+				6CAAF26D226A48B200C88E59 /* Map */,
+				6CAAF26F226A48B200C88E59 /* Error */,
+				6CAAF271226A48B200C88E59 /* Client */,
+				6CAAF273226A48B200C88E59 /* Func */,
 			);
 			name = Code;
 			path = ../../Code;
+			sourceTree = "<group>";
+		};
+		6CAAF269226A48B200C88E59 /* RXReq */ = {
+			isa = PBXGroup;
+			children = (
+				6CAAF26A226A48B200C88E59 /* WLObserverReq.swift */,
+			);
+			path = RXReq;
+			sourceTree = "<group>";
+		};
+		6CAAF26B226A48B200C88E59 /* Req */ = {
+			isa = PBXGroup;
+			children = (
+				6CAAF26C226A48B200C88E59 /* WLBaseReq.swift */,
+			);
+			path = Req;
+			sourceTree = "<group>";
+		};
+		6CAAF26D226A48B200C88E59 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				6CAAF26E226A48B200C88E59 /* Observable+Map.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		6CAAF26F226A48B200C88E59 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				6CAAF270226A48B200C88E59 /* WLBaseError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		6CAAF271226A48B200C88E59 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				6CAAF272226A48B200C88E59 /* CurrentNetClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		6CAAF273226A48B200C88E59 /* Func */ = {
+			isa = PBXGroup;
+			children = (
+				6CAAF274226A48B200C88E59 /* WLBaseReqFunc.swift */,
+			);
+			path = Func;
 			sourceTree = "<group>";
 		};
 		97BCA450C0F0F1FEFFB57FDE /* Pods */ = {
@@ -337,14 +385,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CAAF27A226A48B200C88E59 /* WLBaseReqFunc.swift in Sources */,
+				6CAAF276226A48B200C88E59 /* WLBaseReq.swift in Sources */,
+				6CAAF277226A48B200C88E59 /* Observable+Map.swift in Sources */,
 				6C0A677D21B8C3FF009969D3 /* ViewController.swift in Sources */,
-				6C4C750721C33CD90026EE6F /* WLBaseError.swift in Sources */,
-				6C0A67B221B8C53A009969D3 /* CurrentNetClient.swift in Sources */,
-				6C0A67B821B8CA89009969D3 /* Observable+Map.swift in Sources */,
-				6C4C750921C33FD70026EE6F /* WLObserverReq.swift in Sources */,
-				6CF964B121DDAD1700256A64 /* WLBaseReqFunc.swift in Sources */,
 				6C0A677B21B8C3FF009969D3 /* AppDelegate.swift in Sources */,
-				6CF964AF21DDACA800256A64 /* WLBaseReq.swift in Sources */,
+				6CAAF278226A48B200C88E59 /* WLBaseError.swift in Sources */,
+				6CAAF279226A48B200C88E59 /* CurrentNetClient.swift in Sources */,
+				6CAAF275226A48B200C88E59 /* WLObserverReq.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

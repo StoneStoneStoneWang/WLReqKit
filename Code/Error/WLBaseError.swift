@@ -9,12 +9,14 @@
 import Foundation
 
 public enum WLBaseError: Error {
+    
     case HTTPFailed(_ error: Error)
     
     case MapperError(_ msg: String)
     
     case ServerResponseError(_ msg: String)
 }
+
 extension WLBaseError {
     
     public var description: (String,Error?) {
