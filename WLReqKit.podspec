@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "WLReqKit"
-  spec.version      = "0.1.4"
+  spec.version      = "0.1.5"
   spec.summary      = "A Lib For req."
   spec.description  = <<-DESC
   面向协议的Alamofire、RxSwift封装
@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/StoneStoneStoneWang/WLReqKit"
   spec.license      = { :type => "MIT", :file => "LICENSE.md" }
   spec.author             = { "StoneStoneStoneWang" => "yuanxingfu1314@163.com" }
-  spec.platform     = :ios, "9.0"
-  spec.ios.deployment_target = "9.0"
+  spec.platform     = :ios, "10.0"
+  spec.ios.deployment_target = "10.0"
   
   spec.swift_version = '5.0'
   
