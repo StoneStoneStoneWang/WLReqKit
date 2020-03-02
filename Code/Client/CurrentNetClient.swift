@@ -15,7 +15,7 @@ public struct CurrentNetClient {
     
     private init() { }
     
-    fileprivate var manager: NetworkReachabilityManager =  NetworkReachabilityManager()!
+    fileprivate var manager: NetworkReachabilityManager =  NetworkReachabilityManager.default!
     
     public enum NetWorkStatus {
         case notReachable
@@ -24,6 +24,8 @@ public struct CurrentNetClient {
         
         case ethernetOrWiFi
         
+        case cellular
+        
         case unknown
     }
 }
@@ -31,21 +33,26 @@ extension CurrentNetClient {
     
     public func startListen(handler: @escaping (NetWorkStatus) -> ()) {
         
-        manager.startListening()
-        
-        switch manager.networkReachabilityStatus {
-        case .notReachable:
+        manager.startListening { (status) in
             
-            handler(.notReachable)
-        case .reachable(.ethernetOrWiFi):
             
-            handler(.ethernetOrWiFi)
-        case .reachable(.wwan):
-            
-            handler(.wwan)
-        case .unknown:
-            
-            handler(.unknown)
+            switch status {
+            case .notReachable:
+                
+                handler(.notReachable)
+            case .reachable(let aTYpe):
+                
+                
+                switch aTYpe {
+                    
+                case .ethernetOrWiFi: handler(.ethernetOrWiFi)
+                case .cellular: handler(.cellular)
+                }
+                
+            case .unknown:
+                
+                handler(.unknown)
+            }
         }
     }
     

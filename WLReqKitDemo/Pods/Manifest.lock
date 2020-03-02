@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (4.9.1)
+  - Alamofire (5.0.2)
   - ObjectMapper (3.5.1)
   - RxAtomic (4.4.2)
   - RxCocoa (5.0.1):
@@ -49,7 +49,7 @@ DEPENDENCIES:
   - WLToolsKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - ObjectMapper
     - RxAtomic
@@ -59,7 +59,7 @@ SPEC REPOS:
     - WLToolsKit
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
@@ -67,6 +67,6 @@ SPEC CHECKSUMS:
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   WLToolsKit: f9b5e33ec37bc4a27285a9f8d21d11de8073449d
 
-PODFILE CHECKSUM: c6784c00899eb3d0cb752ad774c997135f09b039
+PODFILE CHECKSUM: bd4721ff1e5cb04c61de29b7f6426fc8cda056f0
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.9.0
